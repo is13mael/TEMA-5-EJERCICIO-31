@@ -12,7 +12,9 @@ public class App {
             }
             System.out.println();
         } catch (NumberFormatException e) {
-            System.out.println("");
+            System.out.println("Número mal introducido");
+        }catch(Exception e){
+            System.out.println("Ha ocurrido un error inesperado.");
         }
     }
 }
